@@ -9,6 +9,7 @@ int visited[15];
 //a c i s t w
 
 void dfs(int depth,int start){
+    
     if(depth==l){
         //ok1: 모음 개수, ok2=자음 개수
         int ok1=0,ok2=0;
